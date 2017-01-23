@@ -1,3 +1,7 @@
-<p>
-  forum works!
-</p>
+<div *ngFor="let post of posts" (click)="goToDetailPage(post)" class="panel panel-default">
+  <div class="panel-body">
+    <h3>{{post.title}}</h3>
+    <h5>Asked by: {{post.author}}</h5>
+    <p>{{post.details}}</p>
+  </div>
+</div>
