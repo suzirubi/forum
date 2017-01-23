@@ -1,5 +1,13 @@
 .navbar-default .navbar-brand {
   color: #454e59;
+  height: 120px;
+}
+.navbar-brand img {
+  height: 100px;
+}
+.navbar-brand h3 {
+  text-transform: uppercase;
+  color: ##454e59;
 }
 .navbar-default {
     background-color: #f0f7fd;
