@@ -1,0 +1,8 @@
+<div>
+  <div *ngIf="forumListDetail">
+    <p>{{currentPost.details}}</p>
+
+    <button (click)="hideDetailButtonClicked()">Hide Details</button>
+  </div>
+</div>
+<button *ngIf="!forumListDetail" (click)="showDetailButtonClicked()">Show Details</button>

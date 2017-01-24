@@ -1,0 +1,7 @@
+<div *ngFor="let currentPost of childPostList" class="panel panel-default">
+  <div class="panel-body">
+    <h3>{{currentPost.title}}</h3>
+    <h5>Asked by: {{currentPost.author}}</h5>
+       <forum-detail [currentPost]="currentPost"></forum-detail>
+  </div>
+</div>

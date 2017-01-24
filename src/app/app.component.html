@@ -11,5 +11,7 @@
 
 <div class="container">
   <h1>{{title}}</h1>
-  <router-outlet></router-outlet>
+  <forum-list [childPostList]="masterPostList" (detailClickSender)="detailPost($event)"></forum-list>
+
+  <!-- <router-outlet></router-outlet> -->
 </div>
