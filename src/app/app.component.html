@@ -4,14 +4,16 @@
       <a class="navbar-brand" routerLink=""><img src="./assets/images/alien.png"></a>
     </div>
     <ul class="nav navbar-nav navbar-right">
-      <li><a routerLink="news">News</a></li>
+      <li><a routerLink="forum-list">View All Posts</a></li>
+      <li><a routerLink="new-post">Add New Post</a></li>
     </ul>
   </div>
 </nav>
 
 <div class="container">
   <h1>{{title}}</h1>
-  <forum-list [childPostList]="masterPostList" (detailClickSender)="detailPost($event)"></forum-list>
 
-  <!-- <router-outlet></router-outlet> -->
+
+  <router-outlet></router-outlet>
+
 </div>

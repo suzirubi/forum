@@ -1,8 +1,6 @@
-<div>
-  <div *ngIf="forumListDetail">
-    <p>{{currentPost.details}}</p>
 
-    <button (click)="hideDetailButtonClicked()">Hide Details</button>
-  </div>
+<div>
+  <h3>{{(postToDisplay | async)?.title}}</h3>
+  <h4>{{(postToDisplay | async)?.author}}</h4>
+  <p>{{(postToDisplay | async)?.details}}</p>
 </div>
-<button *ngIf="!forumListDetail" (click)="showDetailButtonClicked()">Show Details</button>

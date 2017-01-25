@@ -1,0 +1,33 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h3 class="panel-title">Add New Post</h3>
+  </div>
+  <div class="panel-body">
+    <div>
+      <div>
+        <label>Post Genre:</label>
+        <br>
+        <input #newGenre placeholder="If News then enter a 1, If Science then enter 2">
+      </div>
+
+      <div>
+        <label>Post Title:</label>
+        <br>
+        <input #newTitle>
+      </div>
+
+      <div>
+        <label>Post Author:</label>
+        <br>
+        <textarea #newAuthor></textarea>
+      </div>
+
+      <div>
+        <label>Post Details:</label>
+        <br>
+        <textarea #newDetails></textarea>
+      </div>
+      <button (click)="submitForm(newGenre.value, newTitle.value, newAuthor.value, newDetails.value); newGenre.value=''; newTitle.value=''; newAuthor.value=''; newDetails.value=''">Add Post</button>
+    </div>
+  </div>
+</div>

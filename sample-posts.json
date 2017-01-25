@@ -1,0 +1,20 @@
+{ "posts": [{
+    "genre": 1,
+    "title": "Aliens Scheduled To Abduct President",
+    "author": "C.P. Tenkirk",
+    "details": "Although we've pledged not to interfere, the present circumstances demand action. We are working on the necessary technology to beam him up!",
+    "id": 0
+    }, {
+    "genre": 1,
+    "title": "Aliens Need Great Hair",
+    "author": "D. Rump",
+    "details": "Hair is great. Aliens should have it. If you don't I can take over your planet and make your hair great again. Like mine.",
+    "id": 1
+    }, {
+    "genre": 2,
+    "title": "The Best Alien Vaction Sites",
+    "author": "L.S. Tinspace",
+    "details": "We like the dark side of the moon, especially when we are high and listening to Pink FLoyd.",
+    "id": 2
+    }]
+}
